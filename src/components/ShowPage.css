@@ -1,0 +1,42 @@
+.card-holder {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 100vh;
+  padding: 0 25%;
+}
+
+.show-page {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid rgba(0, 0, 0, 0.377);
+  border-radius: 8px;
+  padding: 40px;
+  box-shadow: -8px 9px 20px 0px #888888;
+}
+
+.book-btn {
+  background-color: rgba(0, 0, 0, 0.938);
+  color: white;
+  border-radius: 16px;
+  border: none;
+  font-family: "Montserrat", sans-serif;
+  padding: 8px;
+  margin-top: 16px;
+  cursor: pointer;
+}
+
+@media (max-width: 600px) {
+  .card-holder {
+    padding: 0 12%;
+  }
+}
+
+@media (max-width: 900px) {
+  .card-holder {
+    padding: 0 18%;
+  }
+}

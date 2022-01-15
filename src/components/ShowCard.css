@@ -1,0 +1,51 @@
+h3 {
+  margin: 8px 0;
+}
+
+img {
+  object-fit: contain;
+  height: 220px;
+}
+
+.show-card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid rgba(0, 0, 0, 0.377);
+  border-radius: 8px;
+  padding: 20px;
+  box-shadow: -8px 9px 20px 0px #888888;
+  margin: 8%;
+}
+
+.btn-container {
+  display: flex;
+  justify-content: center;
+}
+
+.more-btn {
+  background-color: white;
+  border-radius: 16px;
+  border: 1px solid rgba(0, 0, 0, 0.377);
+  font-family: "Montserrat", sans-serif;
+  padding: 8px;
+}
+
+.more-btn:hover {
+  background-color: rgba(0, 0, 0, 0.938);
+  color: white;
+  cursor: pointer;
+}
+
+@media (max-width: 1200px) {
+  .show-card {
+    margin: 5% 6%;
+  }
+}
+
+@media (max-width: 600px) {
+  .show-card {
+    margin: 5% 11%;
+  }
+}

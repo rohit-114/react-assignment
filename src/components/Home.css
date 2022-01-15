@@ -1,0 +1,36 @@
+.home-container {
+  width: 80vw;
+  padding: 4%;
+}
+
+.card-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
+  gap: 32px;
+}
+
+.site-name {
+  text-align: center;
+}
+
+@media (max-width: 1200px) {
+  .card-container {
+    gap: 16px;
+    margin-top: 32px;
+  }
+}
+
+@media (max-width: 900px) {
+  .card-container {
+    grid-template-columns: 1fr 1fr;
+    gap: 8px;
+  }
+}
+
+@media (max-width: 600px) {
+  .card-container {
+    grid-template-columns: 1fr;
+    gap: 8px;
+  }
+}
