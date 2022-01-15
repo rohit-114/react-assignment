@@ -28,15 +28,14 @@
   margin-top: 16px;
   cursor: pointer;
 }
+@media (max-width: 900px) {
+  .card-holder {
+    padding: 0 18%;
+  }
+}
 
 @media (max-width: 600px) {
   .card-holder {
     padding: 0 12%;
-  }
-}
-
-@media (max-width: 900px) {
-  .card-holder {
-    padding: 0 18%;
   }
 }
